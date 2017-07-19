@@ -29,7 +29,7 @@ class Drawer extends React.Component {
 
 
     render() {
-        const {left, drawerStyle = {}} = this.props;
+        const {left, drawerStyle = {}, hideToggle} = this.props;
         const {width} = this.state;
 
         const containerPosition = this.containerPosition();
@@ -42,7 +42,7 @@ class Drawer extends React.Component {
                     {this.props.children}
                 </div>
 
-                <ArrowButton {...this.props} />
+                {!hideToggle ? <ArrowButton {...this.props} /> : null}
             </div>
         );
     }
@@ -57,7 +57,7 @@ const styles = {
         zIndex: 1000,
         backgroundColor: 'white',
         boxShadow: '0 0 5px rgba(0,0,0,0.1)',
-        padding: '20px 0 0',
+        padding: '0',
         transition: 'all 0.3s ease-in-out',
         height: '100%',
     },

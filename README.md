@@ -30,6 +30,7 @@ A side panel, either flex or fixed.
     left={true}
     drawerStyle={{padding: '0px'}}
     width={300}
+    hideToggle={false}
     toggle={ () => this.setState({open: !open})}>
     
      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae dui
