@@ -1,0 +1,25 @@
+.Github-container {
+  z-index: 1000;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 300px;
+  height: 300px;
+  transform: rotate(45deg) skewX(0deg);
+
+  .stripe {
+    background-color: #973039;
+    text-align: center;
+    padding: 3px 0;
+    text-decoration: none;
+    display: block;
+    background: linear-gradient(to bottom, #973039, #8F0C14);
+  }
+
+  .title {
+    color: white;
+    font-size: 18px;
+    border-top: 1px dashed white;
+    border-bottom: 1px dashed white;
+  }
+}

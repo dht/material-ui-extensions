@@ -1,0 +1,52 @@
+.Example-container {
+  .star {
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    z-index: 1000;
+    border: 1px solid green;
+    width: 50px;
+    height: 20px;
+  }
+
+  .content {
+    padding: 0 30px;
+
+    h1 {
+      border-bottom: 1px solid gray;
+    }
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    height: 100%;
+
+    .col {
+      flex: 1;
+
+      >div {
+        background-color: #eee;
+        margin:5px;
+        height:100%;
+      }
+    }
+  }
+}
+
+.phone {
+  width: 320px;
+  height: 568px;
+  background-color: white;
+  position: relative;
+  border: 1px solid #e3e3e3;
+  padding: 30px;
+  color: gray;
+  line-height: 23px;
+
+  strong {
+    display: block;
+  }
+}
+
