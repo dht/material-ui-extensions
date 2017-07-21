@@ -1,6 +1,6 @@
 {
   "name": "material-ui-extensions",
-  "version": "0.0.5",
+  "version": "0.0.7",
   "description": "A collection of UI elements based on material-ui for react project",
   "main": "index.js",
   "module": "./index.js",

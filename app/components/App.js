@@ -13,16 +13,16 @@ export default class App extends React.Component {
             <h2>Drawer</h2>
             <ul>
                 <li>
-                    <a href="/#/drawer/left/fixed">left fixed</a>
+                    <a href="#/drawer/left/fixed">left fixed</a>
                 </li>
                 <li>
-                    <a href="/#/drawer/right/fixed">right fixed</a>
+                    <a href="#/drawer/right/fixed">right fixed</a>
                 </li>
                 <li>
-                    <a href="/#/drawer/left/flex">left flex</a>
+                    <a href="#/drawer/left/flex">left flex</a>
                 </li>
                 <li>
-                    <a href="/#/drawer/right/flex">right flex</a>
+                    <a href="#/drawer/right/flex">right flex</a>
                 </li>
             </ul>
         </div>
